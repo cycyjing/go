@@ -1,0 +1,44 @@
+{
+  "labels": [
+    "January",
+    "February"
+  ],
+  "datasets": [
+    {
+      "stack": "0",
+      "backgroundColor": "lightblue",
+      "label": "Shoes Sale",
+      "data": [
+        100,
+        200
+      ]
+    },
+    {
+      "stack": "0",
+      "backgroundColor": "pink",
+      "label": "Shoes Revenue",
+      "data": [
+        1000,
+        1500
+      ]
+    },
+    {
+      "stack": "1",
+      "backgroundColor": "brown",
+      "label": "Cloths Sale",
+      "data": [
+        200,
+        300
+      ]
+    },
+    {
+      "stack": "1",
+      "backgroundColor": "purple",
+      "label": "Cloths Revenue",
+      "data": [
+        2000,
+        900
+      ]
+    }
+  ]
+}

@@ -14,9 +14,12 @@ func main() {
 	r.Use(Cors())
 	r.GET("/data", func(c *gin.Context) {
 		// file, err := os.Open("./data/short-data.json")
-		file, err := os.Open("./data/questionConfig.json")
+		// file, err := os.Open("./data/mock-data.json")
+		// file, err := os.Open("./data/questionConfig.json")
+		file, err := os.Open("./data/bar-chart-data.json")
 		if err != nil {
 			fmt.Println(err)
+
 		}
 		// * 内存指针
 		// & 内存地址提取符号
